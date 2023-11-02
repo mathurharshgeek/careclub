@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body>
+    <% if (msg.error) { %>
+        <p class="error-text px-4 text-center"><%= msg.error %></p>
+        <% } %>
+    <form action="/create-event" method="post" enctype="multipart/form-data">
+        <input type="text" name="e_name" placeholder="enter event name">
+        <textarea name="e_desc"  cols="20" rows="5"  placeholder="enter description"></textarea>
+        <input type="text" name="e_location" placeholder="enter venue'">
+        <input type="text" name="e_city" placeholder="enter city">
+        <input type="text" name="e_type" placeholder="enter type of event">
+        
+        <input type="file" name="e_image"  >
+        <input type="date" name="e_date" placeholder="enter Date" >   
+        <input type="number" name="e_time" placeholder="enter  time">
+        <select name="e_timezone">
+            <option value="AM">AM</option>
+            <option value="PM">PM</option>
+        </select>
+        <textarea name="e_hashtags" cols="20" rows="5" placeholder="enter hashtags"></textarea>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>

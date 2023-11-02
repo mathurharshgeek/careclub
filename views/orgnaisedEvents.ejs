@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orgnaised events</title>
+</head>
+<body>
+    <% if (msg.error) { %>
+        <p class="error-text px-4 text-center"><%= msg.error %></p>
+        <% }  else { %>
+            <%= events %>
+        <% }%>
+        
+</body>
+</html>

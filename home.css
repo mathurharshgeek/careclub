@@ -1,0 +1,266 @@
+#desk-topimg{
+  background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.5)) ,url("webimg/3home.jpg") no-repeat;
+  background-size: cover;
+
+  width:100%;
+  height:30em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#desk-topimg>h1{
+  color: yellow;
+  font-size:3em;
+}
+
+.a2>h2 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 5px solid purple; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+   font-size:2.7em;
+} 
+
+.a2>h2 span { 
+    background:#fff; 
+    padding:0 10px;
+
+}
+
+.aboutus{
+  font-size:1.6em;
+  margin:35px;
+   display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+/*.cards{
+  width: 100%;
+  height:18em;
+  border:2px solid black;
+  display: inline-flex;
+}*/
+
+/*.imgcamp{
+  width:40%;
+  height:100%;
+
+}
+
+.cards>h2{
+  margin: 10px 3.8em;
+  color: purple;
+
+*/  /*width:10em;*/
+/*}*/
+/*
+.lineofcamp{
+  border:2px solid black;
+  width:9em;
+}
+
+.textofcamp{
+  position: absolute;
+}
+
+*/
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+     
+}
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 5;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    margin-top:20px;
+}
+
+.carousel-inner>img{
+  display: none;
+}
+
+.benefitstitle{
+  display: flex;
+  justify-content: center;
+}
+.textbenefits{
+  font-size:22px;
+  text-align: center;
+}
+.benefitsicons{
+  display:flex;
+  /*justify-content: center;*/
+  justify-content:center;
+}
+#i1{
+  border-radius:6.3em;
+  border:8px solid whitesmoke;
+}
+.icon{
+  object-fit: cover;
+}
+#i2{
+  border-radius:6.3em;
+  border:8px solid cadetblue;
+}
+#i3{
+  border-radius:6.3em;
+  border:8px solid hotpink;
+}
+#i5{
+  border-radius:6.3em;
+  border:8px solid brown;
+}
+
+.greatcamps>h2 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 5px solid purple; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+   font-size:2.7em;
+} 
+
+.greatcamps>h2 span { 
+    background:#fff; 
+    padding:0 10px;
+
+}
+
+/*@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');*/
+.social{
+  background: black;
+}
+
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+  margin: 0;
+  padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fab {
+  width:80px;
+    /*height:80px;*/
+}
+
+@media screen and (max-width: 480px) {
+ #desk-topimg
+ {
+    background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.5)) ,url("webimg/2home.jpg") no-repeat;
+  background-size:100% 100%;
+
+  /*width:auto;*/
+  height:20em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+ }
+
+ #desk-topimg>h1{
+  color: yellow;
+  font-size:2.4em;
+}
+
+.a2>h2 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 5px solid purple; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+   font-size:1.8em;
+} 
+
+
+.aboutus{
+  font-size:1.3em;
+  margin:30px;
+   display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.benefitstitle{
+  font-size:1.5em;
+}
+
+.textbenefits{
+  font-size:16px;
+}
+.benefitsicons>.row{
+  display: flex;
+  justify-content: center;
+  /*width: 100%;*/
+  text-align: center;
+}
+
+.benefitsicons>h3{
+font-size:1.3em;
+width: 100%;
+}
+
+.benefitsicons>p{
+width: 100%;
+
+}
+
+.icon{
+  object-fit: cover;
+}
+/*.benefitsicon2{
+  display: flex;
+  justify-content: center;
+}
+
+.benefitsicon3{
+  display: flex;
+  justify-content: center;
+}
+
+.benefitsicon4{
+  display: flex;
+  justify-content: center;
+}*/
+
+.greatcamps>h2 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 5px solid purple; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+   font-size:1.3em;
+}
+
+.socialbtns .fab {
+  width:60px;
+    /*height:80px;*/
+}
+
+
+}
+

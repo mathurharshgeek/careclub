@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <% if (msg.error) { %>
+        <p class="error-text px-4 text-center"><%= msg.error %></p>
+        <% }  else { %>
+            <h2>hello</h2>
+        <% }%>
+    <form action="/register" method="post" enctype="multipart/form-data">
+        <input type="text" name="name">
+        <input type="email" name="email" >
+        <input type="password" name="password">
+        <input type="file" name="Image_URL">
+
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
